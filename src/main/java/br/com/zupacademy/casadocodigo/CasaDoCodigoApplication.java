@@ -1,4 +1,4 @@
-package br.com.orange.talents.anamoraes.casadocodigo;
+package br.com.zupacademy.casadocodigo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

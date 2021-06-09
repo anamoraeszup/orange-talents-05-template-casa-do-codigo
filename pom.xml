@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.5</version>
+		<version>2.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.orange.talents.anamoraes</groupId>
+	<groupId>br.com.zupacademy</groupId>
 	<artifactId>casa-do-codigo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>casa-do-codigo</name>
-	<description>Implementação do desafio da casa do código</description>
+	<description>Desafio da casa do código</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -26,6 +26,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>

@@ -1,4 +1,4 @@
-package br.com.orange.talents.anamoraes.casadocodigo;
+package br.com.zupacademy.casadocodigo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
